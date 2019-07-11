@@ -2,6 +2,6 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
-<a href="/docs/temp.txt" download="download">Download</a>
+<a href="temp.txt" download="download">Download This</a>
 </body>
 </html>
