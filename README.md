@@ -1,4 +1,4 @@
-# ExcelEditor
+# ListS
 **Current State: Finished**
 
 This is a Windows application built in Visual Studio using Windows Forms and C#.
