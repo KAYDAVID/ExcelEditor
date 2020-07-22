@@ -1,0 +1,17 @@
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Debug\ExcelEditor.exe.config
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Debug\ExcelEditor.exe.manifest
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Debug\ExcelEditor.application
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Debug\ExcelEditor.exe
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Debug\ExcelEditor.pdb
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.csproj.ResolveComReference.cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.Form1.resources
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.Form2.resources
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.Properties.Resources.resources
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.csproj.GenerateResource.Cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.csproj.CoreCompileInputs.cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.exe.manifest
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.application
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.exe
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.pdb
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\ExcelEditor.csprojResolveAssemblyReference.cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Debug\UI_testing.ListS_Main.resources

@@ -1,0 +1,15 @@
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Release\ExcelEditor.exe.config
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Release\ExcelEditor.exe.manifest
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Release\ExcelEditor.application
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Release\ExcelEditor.exe
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\bin\Release\ExcelEditor.pdb
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.csproj.ResolveComReference.cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.Form1.resources
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.Properties.Resources.resources
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.csproj.GenerateResource.Cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.csproj.CoreCompileInputs.cache
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.exe.manifest
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.application
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.exe
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.pdb
+C:\Users\Mr. Pickwick\source\repos\ExcelEditor\ExcelEditor\obj\Release\ExcelEditor.Form2.resources
