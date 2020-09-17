@@ -43,38 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fizzler.dll" size="35328">
-      <assemblyIdentity name="Fizzler" version="1.1.21209.0" publicKeyToken="4EBFF4844E382110" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BkLqErcVL6u0bz/L2IG+f8Zn8fZct2VqFRU0i3vOj9A=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ListS.exe" size="208904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ListS.exe" size="208392">
       <assemblyIdentity name="ListS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>a8iU7uktftw9q5lQA607kNzvkz6Hh2AWdf30bMRwuwo=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Svg.dll" size="536576">
-      <assemblyIdentity name="Svg" version="3.0.0.0" publicKeyToken="12A0BAC221EDEAE2" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KpdTj3n1iHz/H9A514vJGWoPcPvtbqpLjluOd03Bkys=</dsig:DigestValue>
+        <dsig:DigestValue>1JpPIff7Bb1ifI1aVV04L+uuaTrEL1+0FTzXpRJWxvU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

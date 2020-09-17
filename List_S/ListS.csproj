@@ -50,10 +50,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>54C3A1C80C417388D91A9DEDA0E4DEFF4B4AC1C8</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>42EFF60679FF720544DE744D228DBEDC5EE5BE94</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>ListS_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>ExcelEditor_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -64,16 +64,7 @@
   <PropertyGroup>
     <ApplicationIcon>ListSLogo.ico</ApplicationIcon>
   </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
-  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Fizzler, Version=1.1.21209.0, Culture=neutral, PublicKeyToken=4ebff4844e382110, processorArchitecture=MSIL">
-      <HintPath>..\packages\Fizzler.1.1.0\lib\net35\Fizzler.dll</HintPath>
-    </Reference>
-    <Reference Include="Svg, Version=3.0.0.0, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
-      <HintPath>..\packages\Svg.3.0.84\lib\net452\Svg.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -83,7 +74,6 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -154,7 +144,6 @@
     <EmbeddedResource Include="TextSettingsForm_ListS.resx">
       <DependentUpon>TextSettingsForm_ListS.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ListS_1_TemporaryKey.pfx" />
     <None Include="ListS_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

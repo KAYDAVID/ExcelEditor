@@ -15,24 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_7470C4BD03E246532033B7C7803402EF"
-        "OwnerKey" = "8:_C7EEFAEF3EB84B2C9258EF06B32B6EEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_98E95EC914743EF5B734C448E00CB278"
-        "OwnerKey" = "8:_C7EEFAEF3EB84B2C9258EF06B32B6EEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_98E95EC914743EF5B734C448E00CB278"
-        "OwnerKey" = "8:_7470C4BD03E246532033B7C7803402EF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_BEB7E8B6A089485587A3EC7F7479B353"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -45,32 +27,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CE0B68A6593A822D6B4B39F84827F8A1"
-        "OwnerKey" = "8:_C7EEFAEF3EB84B2C9258EF06B32B6EEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C7EEFAEF3EB84B2C9258EF06B32B6EEA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7470C4BD03E246532033B7C7803402EF"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_98E95EC914743EF5B734C448E00CB278"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CE0B68A6593A822D6B4B39F84827F8A1"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -160,7 +118,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.6.1"
+                "FrameworkVersion" = "8:ANY"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -168,68 +126,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7470C4BD03E246532033B7C7803402EF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Svg, Version=3.0.0.0, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_7470C4BD03E246532033B7C7803402EF"
-                    {
-                    "Name" = "8:Svg.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Svg.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_6841FA49535744FABDD342D581A7EE76"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98E95EC914743EF5B734C448E00CB278"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Fizzler, Version=1.1.21209.0, Culture=neutral, PublicKeyToken=4ebff4844e382110, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_98E95EC914743EF5B734C448E00CB278"
-                    {
-                    "Name" = "8:Fizzler.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Fizzler.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_6841FA49535744FABDD342D581A7EE76"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BEB7E8B6A089485587A3EC7F7479B353"
             {
             "SourcePath" = "8:..\\List_S\\ListSLogo.ico"
@@ -248,37 +144,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CE0B68A6593A822D6B4B39F84827F8A1"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_CE0B68A6593A822D6B4B39F84827F8A1"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_6841FA49535744FABDD342D581A7EE76"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -350,7 +215,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:ListS"
         "ProductCode" = "8:{F6CEAF23-0157-498F-8E07-8B2D25715577}"
-        "PackageCode" = "8:{5C8D8035-3BC9-4DE9-857A-2026273E5C56}"
+        "PackageCode" = "8:{DE357E6D-893B-412B-B979-BE34BB4BED51}"
         "UpgradeCode" = "8:{9C80AD4C-1457-4917-9836-B2FF376FB5A3}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"

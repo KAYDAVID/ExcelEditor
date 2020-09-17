@@ -11,7 +11,6 @@ using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
 using System.Reflection;
 using System.Data.OleDb;
-using Svg;
 
 namespace ListS
 {
@@ -158,12 +157,11 @@ namespace ListS
         {
             InitializeComponent();
 
-            SvgDocument doc = SvgDocument.Open(@"C:\Users\Mr. Pickwick\Desktop\ListS_Logo36x36_noShadow.svg");
-            Bitmap bmp = doc.Draw();
+            //SvgDocument doc = SvgDocument.Open(@"C:\Users\Mr. Pickwick\Desktop\ListS_Logo36x36_noShadow.svg");
+            Bitmap bmp = new Bitmap(@"C:\Users\Mr. Pickwick\source\repos\ListS\List_S\ListSLogo.ico"); //doc.Draw();
             pictureBox1.Image = bmp;
-
-            //this.pictureBox1.Image = (Image)(new Bitmap(this.pictureBox1.Image, new Size(36, 36)));
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+
             this.closeButton.Image = (Image)(new Bitmap(this.closeButton.Image, new Size(16, 16)));
             this.settingsButton.Image = (Image)(new Bitmap(this.settingsButton.Image, new Size(16, 16)));
 
