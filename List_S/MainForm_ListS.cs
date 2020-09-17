@@ -308,8 +308,10 @@ namespace ListS
             try
             {
                 //Start Excel and get Application object.
-                oXL = new Excel.Application();
-                oXL.Visible = false;
+                oXL = new Excel.Application
+                {
+                    Visible = false
+                };
 
                 //Get a new Workbook.
                 oWB = (Excel._Workbook)(oXL.Workbooks.Add(Missing.Value));
