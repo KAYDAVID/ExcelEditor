@@ -46,3 +46,16 @@ C:\Users\Mr. Pickwick\source\repos\ListS\List_S\obj\Debug\ListS.application
 C:\Users\Mr. Pickwick\source\repos\ListS\List_S\obj\Debug\ListS.exe
 C:\Users\Mr. Pickwick\source\repos\ListS\List_S\obj\Debug\ListS.pdb
 C:\Users\Mr. Pickwick\source\repos\ListS\List_S\obj\Debug\ListS.csprojResolveAssemblyReference.cache
+Z:\List_S\obj\Debug\ListS.csprojAssemblyReference.cache
+Z:\List_S\obj\Debug\ListS.exe
+Z:\List_S\obj\Debug\ListS.pdb
+Z:\List_S\obj\Debug\ListS.csproj.ResolveComReference.cache
+Z:\List_S\obj\Debug\ListS.ColumnsSettingsForm_ListS.resources
+Z:\List_S\obj\Debug\ListS.MiscSettingsForm_ListS.resources
+Z:\List_S\obj\Debug\ListS.SettingsForm_ListS.resources
+Z:\List_S\obj\Debug\ListS.Form1.resources
+Z:\List_S\obj\Debug\ListS.TempSettingMenu.resources
+Z:\List_S\obj\Debug\ListS.Properties.Resources.resources
+Z:\List_S\obj\Debug\ListS.TextSettingsForm_ListS.resources
+Z:\List_S\obj\Debug\ListS.csproj.GenerateResource.cache
+Z:\List_S\obj\Debug\ListS.csproj.CoreCompileInputs.cache
