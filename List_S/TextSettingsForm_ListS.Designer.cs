@@ -38,6 +38,7 @@
             this.titleItalicCheckBox = new System.Windows.Forms.CheckBox();
             this.titleBoldCheckBox = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.tableFontStyleBox = new System.Windows.Forms.ComboBox();
             this.tableFontNum = new System.Windows.Forms.NumericUpDown();
             this.tableUnderlineCheckBox = new System.Windows.Forms.CheckBox();
@@ -46,7 +47,6 @@
             this.tableItalicCheckBox = new System.Windows.Forms.CheckBox();
             this.tableBoldCheckBox = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.subtitleFontStyleBox = new System.Windows.Forms.ComboBox();
             this.subtitleFontNum = new System.Windows.Forms.NumericUpDown();
@@ -93,12 +93,17 @@
             // titleFontStyleBox
             // 
             this.titleFontStyleBox.BackColor = System.Drawing.Color.Silver;
+            this.titleFontStyleBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.titleFontStyleBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.titleFontStyleBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.titleFontStyleBox.FormattingEnabled = true;
+            this.titleFontStyleBox.IntegralHeight = false;
+            this.titleFontStyleBox.ItemHeight = 20;
             this.titleFontStyleBox.Location = new System.Drawing.Point(161, 49);
             this.titleFontStyleBox.Name = "titleFontStyleBox";
-            this.titleFontStyleBox.Size = new System.Drawing.Size(121, 21);
+            this.titleFontStyleBox.Size = new System.Drawing.Size(121, 26);
             this.titleFontStyleBox.TabIndex = 26;
+            this.titleFontStyleBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.titleFontStyleBox_DrawItem);
             // 
             // titleFontNum
             // 
@@ -186,15 +191,31 @@
             this.panel2.Size = new System.Drawing.Size(392, 85);
             this.panel2.TabIndex = 1;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.label9.Location = new System.Drawing.Point(152, 17);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(64, 17);
+            this.label9.TabIndex = 29;
+            this.label9.Text = "Font Size";
+            // 
             // tableFontStyleBox
             // 
             this.tableFontStyleBox.BackColor = System.Drawing.Color.Silver;
+            this.tableFontStyleBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.tableFontStyleBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.tableFontStyleBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tableFontStyleBox.FormattingEnabled = true;
+            this.tableFontStyleBox.IntegralHeight = false;
+            this.tableFontStyleBox.ItemHeight = 20;
             this.tableFontStyleBox.Location = new System.Drawing.Point(161, 52);
             this.tableFontStyleBox.Name = "tableFontStyleBox";
-            this.tableFontStyleBox.Size = new System.Drawing.Size(121, 21);
+            this.tableFontStyleBox.Size = new System.Drawing.Size(121, 26);
             this.tableFontStyleBox.TabIndex = 29;
+            this.tableFontStyleBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.tableFontStyleBox_DrawItem);
             // 
             // tableFontNum
             // 
@@ -282,17 +303,6 @@
             this.panel3.Size = new System.Drawing.Size(392, 85);
             this.panel3.TabIndex = 2;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.label9.Location = new System.Drawing.Point(152, 17);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 17);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "Font Size";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -307,12 +317,17 @@
             // subtitleFontStyleBox
             // 
             this.subtitleFontStyleBox.BackColor = System.Drawing.Color.Silver;
+            this.subtitleFontStyleBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.subtitleFontStyleBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.subtitleFontStyleBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.subtitleFontStyleBox.FormattingEnabled = true;
+            this.subtitleFontStyleBox.IntegralHeight = false;
+            this.subtitleFontStyleBox.ItemHeight = 20;
             this.subtitleFontStyleBox.Location = new System.Drawing.Point(161, 50);
             this.subtitleFontStyleBox.Name = "subtitleFontStyleBox";
-            this.subtitleFontStyleBox.Size = new System.Drawing.Size(121, 21);
+            this.subtitleFontStyleBox.Size = new System.Drawing.Size(121, 26);
             this.subtitleFontStyleBox.TabIndex = 23;
+            this.subtitleFontStyleBox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.subtitleFontStyleBox_DrawItem);
             // 
             // subtitleFontNum
             // 

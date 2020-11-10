@@ -21,24 +21,30 @@ namespace ListS
         public List<string> lastName = new List<string>();
         public bool fileIsRead = false;
 
+        public string[] data;
+        public static bool colSettingsUpdateFlag = false;
+
         // Setup local variables for Settings
         //Title Settings
         private static int titleFont = (int)Properties.Settings.Default.TitleFontSetting; // Default Font Set to 14;
         private static bool titleBold = Properties.Settings.Default.TitleBoldSetting; // Default Bold True
         private static bool titleItalic = Properties.Settings.Default.TitleItalicSetting; // Default Italic False
         private static bool titleUnderline = Properties.Settings.Default.TitleUnderlineSetting; // Default Underline False
+        private static Font titleFontStyle = Properties.Settings.Default.TitleFontTypeSetting;
 
         //Subtitle Settings
         private static int subtitleFont = (int)Properties.Settings.Default.SubtitleFontSetting; // Default Font Set to 10;
         private static bool subtitleBold = Properties.Settings.Default.SubtitleBoldSetting; // Default Bold True
         private static bool subtitleItalic = Properties.Settings.Default.SubtitleItalicSetting; // Default Italic False
         private static bool subtitleUnderline = Properties.Settings.Default.SubtitleUnderlineSetting; // Default Underline False
+        private static Font subtitleFontStyle = Properties.Settings.Default.SubtitleFontTypeSetting;
 
         //Table Settings
         private static int tableFont = (int)Properties.Settings.Default.TableFontSetting; // Default Font Set to 11;
         private static bool tableBold = Properties.Settings.Default.TableBoldSetting; // Default Bold True
         private static bool tableItalic = Properties.Settings.Default.TableItalicSetting; // Default Italic False
         private static bool tableUnderline = Properties.Settings.Default.TableUnderlineSetting; // Default Underline False
+        private static Font tableFontStyle = Properties.Settings.Default.TableFontTypeSetting;
 
         //Column Name
         private static string firstColumnName  = Properties.Settings.Default.FirstNameSetting; // Default ATTENDED 0
@@ -158,8 +164,9 @@ namespace ListS
             InitializeComponent();
 
             //SvgDocument doc = SvgDocument.Open(@"C:\Users\Mr. Pickwick\Desktop\ListS_Logo36x36_noShadow.svg");
-            Bitmap bmp = new Bitmap(@"C:\Users\Mr. Pickwick\source\repos\ListS\List_S\ListSLogo.ico"); //doc.Draw();
-            pictureBox1.Image = bmp;
+            //Bitmap bmp = new Bitmap(@"C:\Users\Mr. Pickwick\source\repos\ListS\List_S\ListSLogo.ico"); //doc.Draw();
+            //pictureBox1.Image = bmp;
+            this.pictureBox1.Image = (Image)(new Bitmap(this.pictureBox1.Image, new Size(36, 36)));
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
 
             this.closeButton.Image = (Image)(new Bitmap(this.closeButton.Image, new Size(16, 16)));
@@ -181,18 +188,22 @@ namespace ListS
             titleBold = Properties.Settings.Default.TitleBoldSetting; // Default Bold True
             titleItalic = Properties.Settings.Default.TitleItalicSetting; // Default Italic False
             titleUnderline = Properties.Settings.Default.TitleUnderlineSetting; // Default Underline False
+            titleFontStyle = Properties.Settings.Default.TitleFontTypeSetting;
+            //Console.WriteLine(titleFontStyle);
 
             //Subtitle Settings
             subtitleFont = (int)Properties.Settings.Default.SubtitleFontSetting; // Default Font Set to 10;
             subtitleBold = Properties.Settings.Default.SubtitleBoldSetting; // Default Bold True
             subtitleItalic = Properties.Settings.Default.SubtitleItalicSetting; // Default Italic False
             subtitleUnderline = Properties.Settings.Default.SubtitleUnderlineSetting; // Default Underline False
+            subtitleFontStyle = Properties.Settings.Default.SubtitleFontTypeSetting;
 
             //Table Settings
             tableFont = (int)Properties.Settings.Default.TableFontSetting; // Default Font Set to 14;
             tableBold = Properties.Settings.Default.TableBoldSetting; // Default Bold True
             tableItalic = Properties.Settings.Default.TableItalicSetting; // Default Italic False
             tableUnderline = Properties.Settings.Default.TableUnderlineSetting; // Default Underline False
+            tableFontStyle = Properties.Settings.Default.TableFontTypeSetting;
 
             //Column Name
             firstColumnName = Properties.Settings.Default.FirstNameSetting; // Default ATTENDED 0
@@ -201,6 +212,14 @@ namespace ListS
             fourthColumnName = Properties.Settings.Default.FourthNameSetting; // Default LAST NAME 3
 
             //Column Number : switch to count from 0
+            //flag if Column number settings have changed
+            if (firstColumnNum != (int)Properties.Settings.Default.FirstNumSetting - 1 ||
+                secondColumnNum != (int)Properties.Settings.Default.SecondNumSetting - 1 ||
+                thirdColumnNum != (int)Properties.Settings.Default.ThirdNumSetting - 1 ||
+                fourthColumnNum != (int)Properties.Settings.Default.FourthNumSetting - 1)
+            {
+                colSettingsUpdateFlag = true;
+            }
             firstColumnNum = (int)Properties.Settings.Default.FirstNumSetting - 1; // Default Column 99          
             secondColumnNum = (int)Properties.Settings.Default.SecondNumSetting - 1; // Default Column 8 
             thirdColumnNum = (int)Properties.Settings.Default.ThirdNumSetting - 1; // Default Column 2
@@ -208,6 +227,7 @@ namespace ListS
 
             //Number of empty rows
             numOfERows = (int)Properties.Settings.Default.NumEmptySetting - 1; //switch to count from 0
+
         }
 
         private void SetTitleDimensions(Excel.Range myMergedCells)
@@ -327,6 +347,7 @@ namespace ListS
                 oSheet.get_Range("A1", endColumn).Font.Bold = titleBold;
                 oSheet.get_Range("A1", endColumn).Font.Italic = titleItalic;
                 oSheet.get_Range("A1", endColumn).Font.Underline = titleUnderline;
+                oSheet.get_Range("A1", endColumn).Font.Name = titleFontStyle.Name;
                 oSheet.get_Range("A1", endColumn).WrapText = true;
 
                 //Get the Class name and Date from text boxes and format it.
@@ -349,6 +370,7 @@ namespace ListS
                 oSheet.get_Range("A3", "A4").Font.Bold = subtitleBold;
                 oSheet.get_Range("A3", "A4").Font.Italic = subtitleItalic;
                 oSheet.get_Range("A3", "A4").Font.Underline = subtitleUnderline;
+                oSheet.get_Range("A3", "A4").Font.Name = subtitleFontStyle.Name;
 
 
                 //B3 : Second Column
@@ -360,6 +382,7 @@ namespace ListS
                 oSheet.get_Range("B3", "B4").Font.Bold = subtitleBold;
                 oSheet.get_Range("B3", "B4").Font.Italic = subtitleItalic;
                 oSheet.get_Range("B3", "B4").Font.Underline = subtitleUnderline;
+                oSheet.get_Range("B3", "B4").Font.Name = subtitleFontStyle.Name;
 
 
                 //C3 : Third Column
@@ -371,6 +394,7 @@ namespace ListS
                 oSheet.get_Range("C3", "C4").Font.Bold = subtitleBold;
                 oSheet.get_Range("C3", "C4").Font.Italic = subtitleItalic;
                 oSheet.get_Range("C3", "C4").Font.Underline = subtitleUnderline;
+                oSheet.get_Range("C3", "C4").Font.Name = subtitleFontStyle.Name;
 
 
                 //D3 : Fourth Column
@@ -382,12 +406,30 @@ namespace ListS
                 oSheet.get_Range("D3", "D4").Font.Bold = subtitleBold;
                 oSheet.get_Range("D3", "D4").Font.Italic = subtitleItalic;
                 oSheet.get_Range("D3", "D4").Font.Underline = subtitleUnderline;
+                oSheet.get_Range("D3", "D4").Font.Name = subtitleFontStyle.Name;
 
+
+
+
+                //Check to see if columns have been updated in settings after chooseing a file.
+                if (colSettingsUpdateFlag == true)
+                {
+                    
+                    listStatus.Clear();
+                    firstName.Clear();
+                    lastName.Clear();
+
+                    //reset the lists for a column number settings change.
+                    foreach (string L in data) // cut up the important data to lists
+                    {
+                        string[] cuttings = L.Split(',');
+                        listStatus.Add(cuttings[secondColumnNum]);
+                        firstName.Add(cuttings[thirdColumnNum]);
+                        lastName.Add(cuttings[fourthColumnNum]);
+                    }
+                }
 
                 //Take what is in the lists and put in excel
-
-                
-
                 int buffer = 5;
 
                 for (int i = 1; i < listStatus.Count(); i++)
@@ -435,7 +477,7 @@ namespace ListS
                 oSheet.get_Range("A5", E).Font.Bold = tableBold;
                 oSheet.get_Range("A5", E).Font.Italic = tableItalic;
                 oSheet.get_Range("A5", E).Font.Underline = tableUnderline;
-
+                oSheet.get_Range("A5", E).Font.Name = tableFontStyle.Name;
 
 
                 // Align all the data
@@ -508,7 +550,6 @@ namespace ListS
                     }
                         try
                         {
-                            string[] data;
                             pathTextBox.Text = filePath; // Display path in textbox
                             data = System.IO.File.ReadAllLines(filePath); // Read All the lines of the file into the string array data
 

@@ -133,7 +133,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("STATUS")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FIRST NAME")]
         public string SecondNameSetting {
             get {
                 return ((string)(this["SecondNameSetting"]));
@@ -145,7 +145,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("FIRST NAME")]
+        [global::System.Configuration.DefaultSettingValueAttribute("LAST NAME")]
         public string ThirdNameSetting {
             get {
                 return ((string)(this["ThirdNameSetting"]));
@@ -157,7 +157,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("LAST NAME")]
+        [global::System.Configuration.DefaultSettingValueAttribute("STATUS")]
         public string FourthNameSetting {
             get {
                 return ((string)(this["FourthNameSetting"]));
@@ -181,7 +181,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("8")]
+        [global::System.Configuration.DefaultSettingValueAttribute("2")]
         public decimal SecondNumSetting {
             get {
                 return ((decimal)(this["SecondNumSetting"]));
@@ -193,7 +193,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        [global::System.Configuration.DefaultSettingValueAttribute("3")]
         public decimal ThirdNumSetting {
             get {
                 return ((decimal)(this["ThirdNumSetting"]));
@@ -205,7 +205,7 @@ namespace ListS.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("3")]
+        [global::System.Configuration.DefaultSettingValueAttribute("8")]
         public decimal FourthNumSetting {
             get {
                 return ((decimal)(this["FourthNumSetting"]));
@@ -272,6 +272,42 @@ namespace ListS.Properties {
             }
             set {
                 this["SubtitleUnderlineSetting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 14pt")]
+        public global::System.Drawing.Font TitleFontTypeSetting {
+            get {
+                return ((global::System.Drawing.Font)(this["TitleFontTypeSetting"]));
+            }
+            set {
+                this["TitleFontTypeSetting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 10pt")]
+        public global::System.Drawing.Font SubtitleFontTypeSetting {
+            get {
+                return ((global::System.Drawing.Font)(this["SubtitleFontTypeSetting"]));
+            }
+            set {
+                this["SubtitleFontTypeSetting"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Arial, 11pt")]
+        public global::System.Drawing.Font TableFontTypeSetting {
+            get {
+                return ((global::System.Drawing.Font)(this["TableFontTypeSetting"]));
+            }
+            set {
+                this["TableFontTypeSetting"] = value;
             }
         }
     }

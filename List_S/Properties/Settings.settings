@@ -30,25 +30,25 @@
       <Value Profile="(Default)">ATTENDED</Value>
     </Setting>
     <Setting Name="SecondNameSetting" Type="System.String" Scope="User">
-      <Value Profile="(Default)">STATUS</Value>
-    </Setting>
-    <Setting Name="ThirdNameSetting" Type="System.String" Scope="User">
       <Value Profile="(Default)">FIRST NAME</Value>
     </Setting>
-    <Setting Name="FourthNameSetting" Type="System.String" Scope="User">
+    <Setting Name="ThirdNameSetting" Type="System.String" Scope="User">
       <Value Profile="(Default)">LAST NAME</Value>
+    </Setting>
+    <Setting Name="FourthNameSetting" Type="System.String" Scope="User">
+      <Value Profile="(Default)">STATUS</Value>
     </Setting>
     <Setting Name="FirstNumSetting" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">99</Value>
     </Setting>
     <Setting Name="SecondNumSetting" Type="System.Decimal" Scope="User">
-      <Value Profile="(Default)">8</Value>
-    </Setting>
-    <Setting Name="ThirdNumSetting" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">2</Value>
     </Setting>
-    <Setting Name="FourthNumSetting" Type="System.Decimal" Scope="User">
+    <Setting Name="ThirdNumSetting" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="FourthNumSetting" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">8</Value>
     </Setting>
     <Setting Name="NumEmptySetting" Type="System.Decimal" Scope="User">
       <Value Profile="(Default)">5</Value>
@@ -64,6 +64,15 @@
     </Setting>
     <Setting Name="SubtitleUnderlineSetting" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TitleFontTypeSetting" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 14pt</Value>
+    </Setting>
+    <Setting Name="SubtitleFontTypeSetting" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 10pt</Value>
+    </Setting>
+    <Setting Name="TableFontTypeSetting" Type="System.Drawing.Font" Scope="User">
+      <Value Profile="(Default)">Arial, 11pt</Value>
     </Setting>
   </Settings>
 </SettingsFile>

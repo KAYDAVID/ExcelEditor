@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ListS.exe" size="208392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ListS.exe" size="224768">
       <assemblyIdentity name="ListS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1JpPIff7Bb1ifI1aVV04L+uuaTrEL1+0FTzXpRJWxvU=</dsig:DigestValue>
+        <dsig:DigestValue>QZErspy7zgaeHZRmhsPyN+XIIGzjMXUvf3JkC9+7yCE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>AqEcfUjbRIbqYZdPrsb+sLZrbcFFoDQnCxQzDeIQsr8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ListS.exe.config" size="6086">
+  <file name="ListS.exe.config" size="6509">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>E2PDvh+Yd40a9FYik3DzSJql1NJgRko/xwC6mOtYIRo=</dsig:DigestValue>
+      <dsig:DigestValue>vf0qEWTkvmPFSc7Pbjvs/Otej+ZHKbMWpm71+89Wyus=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ListSLogo.ico" size="4286">
